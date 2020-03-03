@@ -1,0 +1,25 @@
+.nav-bar {
+	background-color: $mainColor;
+	padding         : 2rem 0;
+}
+
+.nav-wrapper {
+	display        : flex;
+	justify-content: space-between;
+	align-items    : center;
+}
+
+nav {
+	a {
+		color  : #fff;
+		padding: 1rem;
+	}
+
+	ul {
+		display: flex;
+	}
+
+	li {
+		margin: 0 1rem;
+	}
+}
