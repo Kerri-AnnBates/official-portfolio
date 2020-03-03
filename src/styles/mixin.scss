@@ -1,0 +1,6 @@
+@mixin clearButtonlink($color) {
+	color  : $color;
+	border : 2px solid $color;
+	padding: 1rem 1.5rem;
+	display: inline-block;
+}
