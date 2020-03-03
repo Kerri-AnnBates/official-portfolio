@@ -6,6 +6,7 @@ const About = () => {
 	return (
 		<main className="about">
 			<Container fluid={true}>
+				<h2 className="sub-titles">About</h2>
 				<QuickInfoList />
 				<div className="detailed-info">
 					{/* Tech stack */}

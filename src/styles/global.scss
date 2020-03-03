@@ -41,5 +41,27 @@ ul {
 }
 
 h1 {
-	font-size: $lgHeaderFont;
+	font-size: $lgHeaderFontSize;
+}
+
+.about {
+	padding: 4rem 0;
+}
+
+.sub-titles {
+	font-size       : 3rem;
+	text-align      : center;
+	margin-bottom   : 4rem;
+	position        : relative;
+	// display      : inline-block;
+
+	&::after {
+		content         : ' ';
+		width           : 50%;
+		background-color: $secondaryColor;
+		position        : absolute;
+		bottom          : 0;
+		left            : 0;
+		height          : 3px;
+	}
 }

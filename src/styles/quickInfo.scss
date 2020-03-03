@@ -1,0 +1,35 @@
+.quick-info {
+	.block {
+		text-align: center;
+		width     : 70%;
+		margin    : auto;
+		padding   : 2rem;
+		box-shadow: 3px 3px 10px 0px rgba(169, 167, 165, 1);
+		height    : 100%;
+
+		h3 {
+			color    : $secondaryColor;
+			font-size: 2.5rem;
+		}
+
+		p {
+			font-size: 2rem;
+		}
+	}
+
+	.icon-wrapper {
+		border-radius   : 50%;
+		background-color: #13747D;
+		width           : 10rem;
+		height          : 10rem;
+		display         : flex;
+		justify-content : center;
+		align-items     : center;
+		margin          : 0 auto 2rem;
+
+		i {
+			color    : #fff;
+			font-size: $quickIconFontSize;
+		}
+	}
+}
