@@ -44,7 +44,7 @@ h1 {
 	font-size: $lgHeaderFontSize;
 }
 
-.about {
+.about-section {
 	padding: 4rem 0;
 }
 
@@ -57,7 +57,7 @@ h1 {
 		display  : inline-block;
 
 		&::after {
-			content         : ' ';
+			content         : '';
 			display         : block;
 			width           : 4rem;
 			background-color: $secondaryColor;
