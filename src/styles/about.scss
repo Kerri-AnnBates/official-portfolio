@@ -63,4 +63,27 @@
 
 .tech-stack {
 	background-color: $mainColor;
+	text-align      : center;
+}
+
+.tech-flex {
+	display  : flex;
+	flex-wrap: wrap;
+
+	.flex-item {
+		flex-basis: 30%;
+		padding   : 3rem;
+		text-align: center;
+	}
+
+	i {
+		color    : #fff;
+		font-size: 5rem;
+	}
+
+	p {
+		color     : #fff;
+		font-size : 2rem;
+		margin-top: 1rem;
+	}
 }
