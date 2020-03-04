@@ -1,5 +1,6 @@
 .about-section {
 	position: relative;
+	padding : 4rem 0;
 
 	.bar {
 		background-color: #FC354B;
@@ -46,5 +47,20 @@
 			font-size: $quickIconFontSize;
 		}
 	}
+}
 
+.detailed-info {
+	display              : grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows   : 1fr;
+
+	.tech-stack,
+	.about-detail {
+		flex-basis: 50%;
+		padding   : 4rem 0;
+	}
+}
+
+.tech-stack {
+	background-color: $mainColor;
 }
