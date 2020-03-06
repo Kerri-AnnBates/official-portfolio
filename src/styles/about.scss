@@ -12,6 +12,7 @@
 	}
 }
 
+// Quick Info section
 .quick-info {
 	.block {
 		text-align      : center;
@@ -56,11 +57,14 @@
 
 	.tech-stack,
 	.about-detail {
-		flex-basis: 50%;
-		padding   : 4rem 0;
+		padding        : 4rem 0;
+		display        : flex;
+		justify-content: center;
+		align-items    : center;
 	}
 }
 
+// Tech stack column
 .tech-stack {
 	background-color: $mainColor;
 	text-align      : center;
@@ -85,5 +89,22 @@
 		color     : #fff;
 		font-size : 2rem;
 		margin-top: 1rem;
+	}
+}
+
+// About me content
+.about-detail {
+	max-width : 500px;
+	margin    : auto;
+	text-align: center;
+
+	.img-wrapper {
+		max-width: 300px;
+		width    : 100%;
+		margin   : auto;
+	}
+
+	.description {
+		margin-top: 2rem;
 	}
 }
