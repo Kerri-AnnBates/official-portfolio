@@ -8,7 +8,7 @@ import Projects from './Projects';
 const Main = () => {
 	return (
 		<main>
-			<section className="about-section">
+			<section className="about-section" id="about">
 				<div className="bar"></div>
 				<Container fluid={true}>
 					<div className="sub-titles"><h2>About</h2></div>
@@ -21,7 +21,7 @@ const Main = () => {
 				<About />
 			</section>
 
-			<section className="projects-list">
+			<section className="projects-list" id="projects">
 				<Projects />
 			</section>
 		</main>
