@@ -1,0 +1,15 @@
+.projects-list {
+	position        : relative;
+	padding         : 4rem 0;
+	background-color: #e4e2fe;
+}
+
+.projects-wrapper {
+	display        : flex;
+	justify-content: space-evenly;
+	flex-wrap      : wrap;
+
+	.project-block {
+		flex-basis: 30%;
+	}
+}

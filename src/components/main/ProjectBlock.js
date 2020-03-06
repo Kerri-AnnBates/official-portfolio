@@ -8,9 +8,9 @@ const ProjectBlock = () => {
 				<img src={randomQuote} />
 			</div>
 			<div className="description">
-				<h3>Project Title</h3>
-				<p>Brief description of app</p>
-				<div><a href="#">Live Demo</a> | <a href="#">Github</a></div>
+				<h3>Random Quote Machine</h3>
+				<p>Simple React application using react class components, implementing an axios call to a third party API, and using Sass to style the frontend</p>
+				<div><a href="https://randomquotemachinekb.netlify.com/" target="_blank">Live Demo</a> | <a href="https://github.com/Kerri-AnnBates/Random-Quote-Machine" target="_blank">Github</a></div>
 			</div>
 		</div>
 	)
