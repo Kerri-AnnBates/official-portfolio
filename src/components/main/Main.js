@@ -4,6 +4,7 @@ import QuickInfoList from './QuickInfoList';
 import TechDetails from './TechDetails';
 import About from './About';
 import Projects from './Projects';
+import Contact from './Contact';
 
 const Main = () => {
 	return (
@@ -23,6 +24,10 @@ const Main = () => {
 
 			<section className="projects-list" id="projects">
 				<Projects />
+			</section>
+
+			<section id="contact">
+				<Contact />
 			</section>
 		</main>
 	)
