@@ -24,7 +24,9 @@ const ProjectBlock = () => {
 					<h3>Alpaca Vids</h3>
 					<p>Web application that allows users to get constructive feedback on interview performance in a team envirnment.</p>
 				</div>
-				<div className="links"><a href="https://www.alpacavids.com/" target="_blank">Live Demo</a> | <a href="https://github.com/Lambda-School-Labs/video-journal-for-teams-fe" target="_blank">Github</a></div>
+				<div className="links">
+					<a href="https://www.alpacavids.com/" target="_blank">Live Demo</a> | <a href="https://github.com/Lambda-School-Labs/video-journal-for-teams-fe" target="_blank">Github - FE</a> | <a href="https://github.com/Lambda-School-Labs/video-journal-for-teams-be" target="_blank">Github - BE</a>
+				</div>
 			</div>
 
 		</>
