@@ -27,6 +27,10 @@ h6 {
 	font-family: $headerFont;
 }
 
+h3 {
+	font-size: 2.3rem;
+}
+
 a {
 	text-decoration: none;
 }
@@ -46,6 +50,13 @@ h1 {
 
 img {
 	max-width: 100%;
+}
+
+.about-section,
+.projects-list,
+.contact-details {
+	padding : 4rem;
+	position: relative;
 }
 
 .sub-titles {

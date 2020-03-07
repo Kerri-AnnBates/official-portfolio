@@ -26,7 +26,7 @@ const Main = () => {
 				<Projects />
 			</section>
 
-			<section id="contact">
+			<section id="contact" className="contact-details">
 				<Contact />
 			</section>
 		</main>

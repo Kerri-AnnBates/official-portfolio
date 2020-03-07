@@ -1,0 +1,20 @@
+.contact-details {
+	text-align: center;
+
+	a.resume {
+		display: inline-block;
+		@include fullButtonlink($secondaryColor);
+	}
+}
+
+.connect-links {
+	i {
+		font-size: 4rem;
+	}
+
+	a {
+		margin : 2rem;
+		display: inline-block;
+		color  : $mainColor;
+	}
+}
