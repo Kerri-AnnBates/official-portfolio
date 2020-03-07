@@ -1,18 +1,33 @@
 import React from 'react';
 import randomQuote from '../../images/random-quote-machine.gif';
+import alpacaVids from '../../images/alpacavids.gif';
 
 const ProjectBlock = () => {
 	return (
-		<div className="project-block">
-			<div className="img-wrapper">
-				<img src={randomQuote} />
+		<>
+			<div className="project-block">
+				<div className="img-wrapper">
+					<img src={randomQuote} />
+				</div>
+				<div className="description">
+					<h3>Random Quote Machine</h3>
+					<p>Simple React application using react class components, implementing an axios call to a third party API, and using Sass to style the frontend</p>
+					<div><a href="https://randomquotemachinekb.netlify.com/" target="_blank">Live Demo</a> | <a href="https://github.com/Kerri-AnnBates/Random-Quote-Machine" target="_blank">Github</a></div>
+				</div>
 			</div>
-			<div className="description">
-				<h3>Random Quote Machine</h3>
-				<p>Simple React application using react class components, implementing an axios call to a third party API, and using Sass to style the frontend</p>
-				<div><a href="https://randomquotemachinekb.netlify.com/" target="_blank">Live Demo</a> | <a href="https://github.com/Kerri-AnnBates/Random-Quote-Machine" target="_blank">Github</a></div>
+
+			<div className="project-block">
+				<div className="img-wrapper">
+					<img src={alpacaVids} />
+				</div>
+				<div className="description">
+					<h3>Alpaca Vids</h3>
+					<p>Web application that allows users to get constructive feedback on interview performance in a team envirnment.</p>
+					<div><a href="https://www.alpacavids.com/" target="_blank">Live Demo</a> | <a href="https://github.com/Lambda-School-Labs/video-journal-for-teams-fe" target="_blank">Github</a></div>
+				</div>
 			</div>
-		</div>
+
+		</>
 	)
 }
 
