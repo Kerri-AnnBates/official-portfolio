@@ -8,14 +8,24 @@
 	display        : flex;
 	justify-content: space-evenly;
 	flex-wrap      : wrap;
+}
 
-	.project-block {
-		flex-basis      : 30%;
-		background-color: #fff;
-		padding         : 2rem;
-	}
+.project-block {
+	flex-basis         : 30%;
+	background-color   : #fff;
+	// padding         : 2rem;
+	padding            : 2rem 2rem 4rem;
+	position           : relative;
 
 	.description {
 		margin-top: 2rem;
+	}
+
+	.links {
+		position: absolute;
+		bottom  : 0;
+		left    : 0;
+		right   : 0;
+		padding : 2rem;
 	}
 }
