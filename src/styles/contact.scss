@@ -1,10 +1,5 @@
 .contact-details {
 	text-align: center;
-
-	a.resume {
-		display: inline-block;
-		@include fullButtonlink($secondaryColor);
-	}
 }
 
 .connect-links {

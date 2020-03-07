@@ -76,3 +76,11 @@ img {
 		}
 	}
 }
+
+.clear-btn {
+	@include clearButtonlink($secondaryColor);
+}
+
+.full-btn {
+	@include fullButtonlink($secondaryColor);
+}

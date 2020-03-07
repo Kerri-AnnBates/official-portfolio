@@ -1,6 +1,11 @@
 .nav-bar {
 	background-color: $mainColor;
-	padding         : 2rem 0;
+	padding         : 1rem 0;
+
+	.logo {
+		font-size: 4rem;
+		color    : #fff;
+	}
 }
 
 .nav-wrapper {
