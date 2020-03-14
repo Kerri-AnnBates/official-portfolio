@@ -6,7 +6,7 @@ const Footer = () => {
 
 	return (
 		<footer style={{ textAlign: "center", backgroundColor: "#28231E", color: "#fff", padding: "2rem 0" }}>
-			<p style={{ margin: 0 }}>Kerri-Ann Bates &copy; {currentYear}</p>
+			<p style={{ margin: 0, fontSize: "1.25rem" }}>Kerri-Ann Bates &copy; {currentYear}</p>
 		</footer>
 	)
 }

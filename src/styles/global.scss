@@ -16,6 +16,7 @@ html {
 body {
 	font-family: $bodyFont;
 	font-size  : 1.6rem;
+	padding-top: 80px;
 }
 
 h1,
@@ -50,6 +51,14 @@ ul {
 
 h1 {
 	font-size: $lgHeaderFontSize;
+
+	@media (max-width: 600px) {
+		font-size: 3.6rem;
+	}
+
+	@media (max-width: 450px) {
+		font-size: 2.6rem;
+	}
 }
 
 img {
@@ -61,6 +70,11 @@ img {
 .contact-details {
 	padding : 4rem;
 	position: relative;
+
+	@media (max-width: 768px) {
+		padding-left : 2rem;
+		padding-right: 2rem;
+	}
 }
 
 .sub-titles {

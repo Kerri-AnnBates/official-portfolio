@@ -7,7 +7,7 @@ const Contact = () => {
 			<Container>
 				<div className="sub-titles"><h2>Connect With Me</h2></div>
 				<p>Feel free to reach out with any questions. I'm interested in full-stack web development positions.</p>
-				<p>Check out my <a href="#" className="resume" title="Resume">Resume</a></p>
+				<p>Check out my <a href="#" className="resume" title="Resume">Resumé</a></p>
 				<div className="connect-links">
 					<a href="https://www.linkedin.com/in/kerri-ann-bates-0b4970129/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
 					<a href="mailto:bates.kerriann@gmail.com" title="Email"><i class="fas fa-envelope-square"></i></a>
