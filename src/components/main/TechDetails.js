@@ -6,7 +6,7 @@ const TechDetails = () => {
 		<>
 			<div className="tech-stack">
 				<Container fluid={true}>
-					<h2>Tech Skills</h2>
+					<h2>Tech Stack</h2>
 					<div className="tech-flex">
 						<div className="flex-item"><i className="fab fa-html5"></i><p>HTML</p></div>
 						<div className="flex-item"><i className="fab fa-css3-alt"></i><p>CSS</p></div>
