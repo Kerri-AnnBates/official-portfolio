@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 
 const ProjectModal = (props) => {
@@ -10,7 +10,7 @@ const ProjectModal = (props) => {
 				<ModalHeader toggle={toggle}>{modalConfig.modalTitle}</ModalHeader>
 				<ModalBody>{modalConfig.modalBody}</ModalBody>
 				<ModalFooter>
-					<Button color="secondary" onClick={toggle}>Cancel</Button>
+					<Button color="secondary" onClick={toggle}>Close</Button>
 				</ModalFooter>
 			</Modal>
 		</div>

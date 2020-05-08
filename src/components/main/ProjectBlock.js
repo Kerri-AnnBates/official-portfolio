@@ -28,7 +28,26 @@ const ProjectBlock = () => {
 					<h3>Random Quote Machine</h3>
 					<p>Simple React application using react class components, implementing an axios call to a third party API, and using Sass to style the frontend</p>
 					<div>
-						<span onClick={(e) => toggle(e, "Random Quote Machine", "Random Qoute Machine Description")}>More Details</span>
+						<span
+							className="show-details"
+							onClick={(e) => toggle(e,
+								"Random Qoute Machine",
+								(
+									<>
+										<p>This simple application took approximately less than a day to complete. It demonstrates the use of react class components, connection to a thrid party API, and Sass.</p>
+
+										<div className="tech-details">
+											<h4>Tech Details</h4>
+											<ul>
+												<li>React class components</li>
+												<li>Axios HTTP client</li>
+												<li>Preprocessor scripting language - Sass</li>
+											</ul>
+										</div>
+									</>
+								)
+							)}
+						>More Details >></span>
 						<ProjectModal
 							toggle={toggle}
 							modalConfig={modalConfig}
@@ -46,7 +65,28 @@ const ProjectBlock = () => {
 					<h3>Alpaca Vids</h3>
 					<p>Web application that allows users to get constructive feedback on interview performance in a team envirnment.</p>
 					<div>
-						<span onClick={(e) => toggle(e, "Alpaca Vids", "Alpaca Vids Description")}>More Details</span>
+						<span
+							className="show-details"
+							onClick={(e) => toggle(e,
+								"Alpaca Vids",
+								(
+									<>
+										<p>A video journal web application that allow users to practice answering prompt questions by recording themselves answering those questions and receiving feedback from their team members on one platform. Worked with a remote team of 4 full-stack developers and 1 UX designer over 2 months.</p>
+										<div className="tech-details">
+											<h4>Tech Details</h4>
+											<ul>
+												<li>Functioned as a full-stack developer</li>
+												<li>Created several API endpoints, a protective middleware, and tests for those endpoints on the backend using jest, node, express and knex</li>
+												<li>Worked with Postgres relational database</li>
+												<li>Created responsive base layout with Sass</li>
+												<li>Created actions in redux, dispatching data from endpoints to display on the frontend</li>
+												<li>Implemented CRUD operations</li>
+											</ul>
+										</div>
+									</>
+								)
+							)}
+						>More Details >></span>
 						<ProjectModal
 							toggle={toggle}
 							modalConfig={modalConfig}
