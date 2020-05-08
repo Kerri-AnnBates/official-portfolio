@@ -10,9 +10,10 @@ const Contact = () => {
 				<p>Feel free to reach out with any questions.</p>
 				<p>Check out my <a href={resume} target="_blank" className="resume" title="Resume">Resumé</a></p>
 				<div className="connect-links">
-					<a href="https://www.linkedin.com/in/kerri-ann-bates-0b4970129/" target="_blank" title="LinkedIn"><i className="fab fa-linkedin"></i></a>
+					<a href="https://www.linkedin.com/in/kerri-ann-bates/" target="_blank" title="LinkedIn"><i className="fab fa-linkedin"></i></a>
 					<a href="mailto:bates.kerriann@gmail.com" title="Email"><i className="fas fa-envelope-square"></i></a>
 					<a href="https://twitter.com/KerriAnnBates7" target="_blank" title="Twitter"><i className="fab fa-twitter-square"></i></a>
+					<a href="https://github.com/Kerri-AnnBates" target="_blank" title="Github"><i class="fab fa-github-square"></i></a>
 				</div>
 			</Container>
 		</>
