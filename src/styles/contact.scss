@@ -1,6 +1,13 @@
 .contact-details {
 	text-align: center;
 	font-size : 1.8rem;
+	padding   : 4rem;
+	position  : relative;
+
+	@media (max-width: 768px) {
+		padding-left : 2rem;
+		padding-right: 2rem;
+	}
 
 	.resume {
 		color           : $textColor;

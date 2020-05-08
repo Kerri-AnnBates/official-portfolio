@@ -8,7 +8,7 @@ const About = () => {
 			<div className="about-detail">
 				<Container fluid={true}>
 					<div className="img-wrapper">
-						<img src={profilePic} alt="Profile picture of Kerri-Ann Bates" />
+						<img src={profilePic} alt="Kerri-Ann Bates profile" />
 					</div>
 					<div className="description">
 						<p>I'm a full-stack developer with a passion for creating dynamic websites.

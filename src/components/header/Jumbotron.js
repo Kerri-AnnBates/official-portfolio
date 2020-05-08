@@ -3,7 +3,7 @@ import { Container } from 'reactstrap';
 
 const Jumbotron = () => {
 	return (
-		<div className="jumbo-intro">
+		<div className="jumbo-intro" id="intro">
 			<Container fluid={true}>
 				<div className="intro-wrapper">
 					<div className="intro-content">
