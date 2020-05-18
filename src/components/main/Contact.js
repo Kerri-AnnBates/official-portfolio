@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'reactstrap';
-import resume from '../../images/resume.pdf';
+import resume from '../../assets/Resume.pdf';
 
 const Contact = () => {
 	return (
