@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import ProjectModal from './ProjectModal';
 import randomQuote from '../../images/random-quote-machine.gif';
 import alpacaVids from '../../images/alpacavids.gif';
+import recipegif from '../../images/recipe.gif';
 
 const ProjectBlock = () => {
 	const [modalConfig, setModalConfig] = useState({
@@ -47,14 +48,16 @@ const ProjectBlock = () => {
 									</>
 								)
 							)}
-						>More Details >></span>
+						>More Details &#x0226B;</span>
 						<ProjectModal
 							toggle={toggle}
 							modalConfig={modalConfig}
 						/>
 					</div>
 				</div>
-				<div className="links"><a href="https://randomquotemachinekb.netlify.com/" target="_blank" rel="noopener noreferrer" >Live Demo</a> | <a href="https://github.com/Kerri-AnnBates/Random-Quote-Machine" target="_blank" rel="noopener noreferrer" >Github</a></div>
+				<div className="links">
+					<a href="https://randomquotemachinekb.netlify.com/" target="_blank" rel="noopener noreferrer" >Live Demo</a> | <a href="https://github.com/Kerri-AnnBates/Random-Quote-Machine" target="_blank" rel="noopener noreferrer" >Github</a>
+				</div>
 			</div>
 
 			<div className="project-block">
@@ -86,7 +89,7 @@ const ProjectBlock = () => {
 									</>
 								)
 							)}
-						>More Details >></span>
+						>More Details &#x0226B;</span>
 						<ProjectModal
 							toggle={toggle}
 							modalConfig={modalConfig}
@@ -95,6 +98,47 @@ const ProjectBlock = () => {
 				</div>
 				<div className="links">
 					<a href="https://www.alpacavids.com/" target="_blank" rel="noopener noreferrer" >Live Demo</a> | <a href="https://github.com/Lambda-School-Labs/video-journal-for-teams-fe" target="_blank" rel="noopener noreferrer" >Github - FE</a> | <a href="https://github.com/Lambda-School-Labs/video-journal-for-teams-be" target="_blank" rel="noopener noreferrer" >Github - BE</a>
+				</div>
+			</div>
+
+			<div className="project-block">
+				<div className="img-wrapper">
+					<img src={recipegif} alt="Recipe web appliacation" />
+				</div>
+				<div className="description">
+					<h3>Recipe App</h3>
+					<p>Web application that allows users to manage their favorite recipes on one platform. </p>
+					<div>
+						<span
+							className="show-details"
+							onClick={(e) => toggle(e,
+								"Recipe App",
+								(
+									<>
+										<p>Currently in progress, this application offer users the ability to manage their recipes on one platform. To avoid cluttering their bookmarks with saved recipes.</p>
+										<div className="tech-details">
+											<h4>Tech Details</h4>
+											<ul>
+												<li>Created several API endpoints, a protective middleware, using node, express and knex</li>
+												<li>Used Formik, and Yup to manage form validations</li>
+												<li>Created responsive styles and base layout with Sass</li>
+												<li>Used ReactStrap where needed</li>
+												<li>Created actions in redux, dispatching data from endpoints to display on the frontend</li>
+												<li>Implemented CRUD operations</li>
+											</ul>
+										</div>
+									</>
+								)
+							)}
+						>More Details &#x0226B;</span>
+						<ProjectModal
+							toggle={toggle}
+							modalConfig={modalConfig}
+						/>
+					</div>
+				</div>
+				<div className="links">
+					<a href="https://github.com/recipe-app-kb/recipe-fe" target="_blank" rel="noopener noreferrer" >Github - FE</a> | <a href="https://github.com/recipe-app-kb/recipe-be" target="_blank" rel="noopener noreferrer" >Github - BE</a>
 				</div>
 			</div>
 
