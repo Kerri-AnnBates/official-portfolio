@@ -3,6 +3,7 @@ import ProjectModal from './ProjectModal';
 import randomQuote from '../../images/random-quote-machine.gif';
 import alpacaVids from '../../images/alpacavids.gif';
 import recipegif from '../../images/recipe.gif';
+import weatherApp from '../../images/weatherApp.png';
 
 const ProjectBlock = () => {
 	const [modalConfig, setModalConfig] = useState({
@@ -27,7 +28,7 @@ const ProjectBlock = () => {
 				</div>
 				<div className="description">
 					<h3>Random Quote Machine</h3>
-					<p>Simple React application using react class components, implementing an axios call to a third party API, and using Sass to style the frontend</p>
+					<p>Simple website that displays randomly generated quotes to the user.</p>
 					<div>
 						<span
 							className="show-details"
@@ -103,11 +104,52 @@ const ProjectBlock = () => {
 
 			<div className="project-block">
 				<div className="img-wrapper">
+					<img src={weatherApp} alt="Random Quote Website" />
+				</div>
+				<div className="description">
+					<h3>Weather App</h3>
+					<p>Web application that display the weather in your local area and other cities throughtout the US via search.</p>
+					<div>
+						<span
+							className="show-details"
+							onClick={(e) => toggle(e,
+								"Weather App",
+								(
+									<>
+										<p>Web application that display the weather in your local area. It also gives the user the ability to search and retrieve weather data from other cities throughout the USA, as well as save their favorite city. This app demonstrates the use of react functional components, react hooks, connection to a thrid party API, saving data, Sass and the BEM styling methodology. Future features in the making...</p>
+
+										<div className="tech-details">
+											<h4>Tech Details</h4>
+											<ul>
+												<li>React functional components</li>
+												<li>React hooks</li>
+												<li>Axios HTTP client</li>
+												<li>Preprocessor scripting language - Sass</li>
+												<li>Mobile-first style approach</li>
+											</ul>
+										</div>
+									</>
+								)
+							)}
+						>More Details &#x0226B;</span>
+						<ProjectModal
+							toggle={toggle}
+							modalConfig={modalConfig}
+						/>
+					</div>
+				</div>
+				<div className="links">
+					<a href="https://theweatherapp-kb.herokuapp.com/" target="_blank" rel="noopener noreferrer" >Live Demo</a> | <a href="https://github.com/Kerri-AnnBates/weather-app" target="_blank" rel="noopener noreferrer" >Github</a>
+				</div>
+			</div>
+
+			<div className="project-block">
+				<div className="img-wrapper">
 					<img src={recipegif} alt="Recipe web appliacation" />
 				</div>
 				<div className="description">
 					<h3>Recipe App</h3>
-					<p>Web application that allows users to manage their favorite recipes on one platform. </p>
+					<p>Web application that allows users to manage their favorite recipes on one platform. (Work in progress)</p>
 					<div>
 						<span
 							className="show-details"
