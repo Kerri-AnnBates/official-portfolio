@@ -4,6 +4,7 @@ import randomQuote from '../../images/random-quote-machine.gif';
 import alpacaVids from '../../images/alpacavids.gif';
 import recipegif from '../../images/recipe.gif';
 import weatherApp from '../../images/weatherApp.png';
+import rockPaperScissors from '../../images/rock-paper-scissors.png';
 
 const ProjectBlock = () => {
 	const [modalConfig, setModalConfig] = useState({
@@ -22,6 +23,44 @@ const ProjectBlock = () => {
 
 	return (
 		<>
+			<div className="project-block">
+				<div className="img-wrapper">
+					<img src={rockPaperScissors} alt="Rock paper scissors website." />
+				</div>
+				<div className="description">
+					<h3>Rock, Paper, Scissors</h3>
+					<p>A rock, paper, scissors game played against the computer. First to five win. Check it out!</p>
+					<div>
+						<span
+							className="show-details"
+							onClick={(e) => toggle(e,
+								"Rock, Paper, Scissors",
+								(
+									<>
+										<p>My first game ever built. I built this game to hone my javascript skills. This website is built with HTML, CSS, and vanilla Javascript. It was very exciting seeing everything come together.</p>
+										<div className="tech-details">
+											<h4>Tech Details</h4>
+											<ul>
+												<li>HTML</li>
+												<li>LESS</li>
+												<li>Javascript (ES6)</li>
+											</ul>
+										</div>
+									</>
+								)
+							)}
+						>More Details &#x0226B;</span>
+						<ProjectModal
+							toggle={toggle}
+							modalConfig={modalConfig}
+						/>
+					</div>
+				</div>
+				<div className="links">
+					<a href="https://kbs-rock-paper-scissors.netlify.app/" target="_blank" rel="noopener noreferrer" >Live Demo</a> | <a href="https://github.com/Kerri-AnnBates/rock-paper-scissors" target="_blank" rel="noopener noreferrer" >Github</a>
+				</div>
+			</div>
+
 			<div className="project-block">
 				<div className="img-wrapper">
 					<img src={randomQuote} alt="Random Quote Website" />
@@ -104,7 +143,7 @@ const ProjectBlock = () => {
 
 			<div className="project-block">
 				<div className="img-wrapper">
-					<img src={weatherApp} alt="Random Quote Website" />
+					<img src={weatherApp} alt="Weather web application." />
 				</div>
 				<div className="description">
 					<h3>Weather App</h3>
