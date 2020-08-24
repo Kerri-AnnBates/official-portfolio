@@ -4,7 +4,7 @@ import resume from '../../assets/Resume.pdf';
 
 const Contact = () => {
 	return (
-		<>
+		<section id="contact" className="contact-details">
 			<Container>
 				<div className="sub-titles"><h2>Connect With Me</h2></div>
 				<p>Feel free to reach out with any questions.</p>
@@ -16,7 +16,7 @@ const Contact = () => {
 					<a href="https://github.com/Kerri-AnnBates" target="_blank" rel="noopener noreferrer" title="Github"><i className="fab fa-github-square"></i></a>
 				</div>
 			</Container>
-		</>
+		</section>
 	)
 }
 
