@@ -1,3 +1,9 @@
+import randomQuote from '../images/random-quote-machine.gif';
+import alpacaVids from '../images/alpacavids.gif';
+import recipegif from '../images/recipe.gif';
+import weatherApp from '../images/weatherApp.png';
+import rockPaperScissors from '../images/rock-paper-scissors.png';
+
 const projects = [
     {
         title: "Rock, Paper, Scissors",
@@ -9,7 +15,8 @@ const projects = [
         url: "https://kbs-rock-paper-scissors.netlify.app/",
         github: [
             "https://github.com/Kerri-AnnBates/rock-paper-scissors"
-        ]
+        ],
+        imageSource: rockPaperScissors
     },
     {
         title: "Random Quote Machine",
@@ -23,7 +30,8 @@ const projects = [
         url: "https://randomquotemachinekb.netlify.com/",
         github: [
             "https://github.com/Kerri-AnnBates/Random-Quote-Machine"
-        ]
+        ],
+        imageSource: randomQuote
     },
     {
         title: "Alpaca Vids",
@@ -41,7 +49,8 @@ const projects = [
         github: [
             "https://github.com/Lambda-School-Labs/video-journal-for-teams-fe",
             "ttps://github.com/Lambda-School-Labs/video-journal-for-teams-be"
-        ]
+        ],
+        imageSource: alpacaVids
     },
     {
         title: "Weather App",
@@ -57,7 +66,8 @@ const projects = [
         url: "https://theweatherapp-kb.herokuapp.com/",
         github: [
             "https://github.com/Kerri-AnnBates/weather-app"
-        ]
+        ],
+        imageSource: weatherApp
     },
     {
         title: "Recipe App",
@@ -75,7 +85,8 @@ const projects = [
         github: [
             "https://github.com/recipe-app-kb/recipe-fe",
             "https://github.com/recipe-app-kb/recipe-be"
-        ]
+        ],
+        imageSource: recipegif
     }
 ]
 
