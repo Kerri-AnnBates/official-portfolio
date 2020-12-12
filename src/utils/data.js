@@ -3,6 +3,7 @@ import alpacaVids from '../images/alpacavids.gif';
 import recipegif from '../images/recipe.gif';
 import weatherApp from '../images/weatherApp.png';
 import rockPaperScissors from '../images/rock-paper-scissors.png';
+import ipTracker from '../images/ip-tracker.png';
 
 const projects = [
     {
@@ -33,6 +34,39 @@ const projects = [
         ],
         imageSource: randomQuote
     },
+
+    {
+        title: "IP Address Tracker",
+        subTitle: "Web application display map IP information based on the user's IP address. Allows for searching IP iniformation based on the IP address entered in search form, or by domain name.",
+        description: "Responsive application built using the mobile first approach. Built using React.js, making http requests to a third party API. Mapbox API is used to diplay map.",
+        techStack: [
+            "Axios http client",
+            "SASS preprocessor",
+            "React.js",
+        ],
+        url: "https://ip-domain-tracker.netlify.app/",
+        github: [
+            "https://github.com/Kerri-AnnBates/ip-address-tracker"
+        ],
+        imageSource: ipTracker
+    },
+    {
+        title: "Weather App",
+        subTitle: "Web application that display the weather in your local area and other cities throughtout the US via search.",
+        description: "Web application that display the weather in your local area. It also gives the user the ability to search and retrieve weather data from other cities throughout the USA, as well as save their favorite city. This app demonstrates the use of react functional components, react hooks, connection to a thrid party API, saving data, Sass and the BEM styling methodology. Future features in the making.",
+        techStack: [
+            "React functional components",
+            "React hooks",
+            "Axios HTTP client",
+            "Preprocessor scripting language - Sass",
+            "Mobile-first style approach"
+        ],
+        url: "https://theweatherapp-kb.herokuapp.com/",
+        github: [
+            "https://github.com/Kerri-AnnBates/weather-app"
+        ],
+        imageSource: weatherApp
+    },
     {
         title: "Alpaca Vids",
         subTitle: "Web application that allows users to get constructive feedback on interview performance in a team envirnment.",
@@ -53,31 +87,14 @@ const projects = [
         imageSource: alpacaVids
     },
     {
-        title: "Weather App",
-        subTitle: "Web application that display the weather in your local area and other cities throughtout the US via search.",
-        description: "Web application that display the weather in your local area. It also gives the user the ability to search and retrieve weather data from other cities throughout the USA, as well as save their favorite city. This app demonstrates the use of react functional components, react hooks, connection to a thrid party API, saving data, Sass and the BEM styling methodology. Future features in the making.",
-        techStack: [
-            "React functional components",
-            "React hooks",
-            "Axios HTTP client",
-            "Preprocessor scripting language - Sass",
-            "Mobile-first style approach"
-        ],
-        url: "https://theweatherapp-kb.herokuapp.com/",
-        github: [
-            "https://github.com/Kerri-AnnBates/weather-app"
-        ],
-        imageSource: weatherApp
-    },
-    {
         title: "Recipe App",
         subTitle: "Web application that allows users to manage their favorite recipes on one platform. (Work in progress)",
         description: "Currently in progress, this application offer users the ability to manage their recipes on one platform. To avoid cluttering their bookmarks with saved recipes.",
         techStack: [
             "Created several API endpoints, a protective middleware, using node, express and knex",
-            ">Used Formik, and Yup to manage form validations",
+            "Used Formik, and Yup to manage form validations",
             "Created responsive styles and base layout with Sass",
-            "sed ReactStrap where needed",
+            "Used ReactStrap where needed",
             "Created actions in redux, dispatching data from endpoints to display on the frontend",
             "Implemented CRUD operations"
         ],
