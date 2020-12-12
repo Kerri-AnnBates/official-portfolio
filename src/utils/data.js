@@ -37,7 +37,7 @@ const projects = [
 
     {
         title: "IP Address Tracker",
-        subTitle: "Web application display map IP information based on the user's IP address. Allows for searching IP iniformation based on the IP address entered in search form, or by domain name.",
+        subTitle: "Display map and IP information based on the user's IP address. Allows for searching IP iniformation based on the IP address entered in search form, or by domain name.",
         description: "Responsive application built using the mobile first approach. Built using React.js, making http requests to a third party API. Mapbox API is used to diplay map.",
         techStack: [
             "Axios http client",
