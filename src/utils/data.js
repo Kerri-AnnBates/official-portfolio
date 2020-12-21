@@ -1,5 +1,5 @@
-import randomQuote from '../images/random-quote-machine.gif';
-import alpacaVids from '../images/alpacavids.gif';
+import randomQuote from '../images/random-quote-machine.png';
+import alpacaVids from '../images/alpacavids.png';
 import recipegif from '../images/recipe.gif';
 import weatherApp from '../images/weatherApp.png';
 import rockPaperScissors from '../images/rock-paper-scissors.png';
@@ -70,7 +70,7 @@ const projects = [
     {
         title: "Alpaca Vids",
         subTitle: "Web application that allows users to get constructive feedback on interview performance in a team envirnment.",
-        description: "A video journal web application that allow users to practice answering prompt questions by recording themselves answering those questions and receiving feedback from their team members on one platform. Worked with a remote team of 4 full-stack developers and 1 UX designer over 2 months.",
+        description: "A video journal web application that allow users to practice answering prompt questions by recording themselves answering those questions and receiving feedback from their team members on one platform. Worked with a remote team of 4 full-stack developers and 1 UX designer over 2 months. (This project has been updated since I have worked on it by other contributors).",
         techStack: [
             "Functioned as a full-stack developer",
             "Created several API endpoints, a protective middleware, and tests for those endpoints on the backend using jest, node, express and knex",
