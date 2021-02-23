@@ -2,11 +2,11 @@ import React from 'react';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 
 const ProjectModal = (props) => {
-	const { toggle, projectTitle, className, description, techStack, modalOpen } = props;
+	const { toggle, projectTitle, description, techStack, modalOpen } = props;
 
 	return (
 		<div>
-			<Modal isOpen={modalOpen} toggle={toggle} className={className}>
+			<Modal isOpen={modalOpen} toggle={toggle}>
 				<ModalHeader toggle={toggle}>{projectTitle} Description</ModalHeader>
 				<ModalBody>
 					<p>{description}</p>
