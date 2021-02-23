@@ -3,26 +3,15 @@ import ProjectModal from './ProjectModal';
 
 const ProjectBlock = (props) => {
 	const { projectTitle, subtitle, description, techStack, url, github, imageSource } = props;
+	const [modalOpen, setModalOpen] = useState(false);
 
-	const [modalConfig, setModalConfig] = useState({
-		isOpen: false,
-		modalTitle: "",
-		modalBody: ""
-	});
-
-	const toggle = (e, title, content) => {
-		setModalConfig({
-			isOpen: !modalConfig.isOpen,
-			modalTitle: title,
-			modalBody: content
-		})
-	}
+	const toggle = () => setModalOpen(!modalOpen);
 
 	return (
 		<>
 			<div className="project-block">
 				<div className="img-wrapper">
-					<img src={imageSource} alt="Rock paper scissors website." />
+					<img src={imageSource} alt={`${projectTitle} website`} />
 				</div>
 				<div className="description">
 					<h3>{projectTitle}</h3>
@@ -30,26 +19,14 @@ const ProjectBlock = (props) => {
 					<div>
 						<span
 							className="show-details"
-							onClick={(e) => toggle(e,
-								"Rock, Paper, Scissors",
-								(
-									<>
-										<p>{description}</p>
-										<div className="tech-details">
-											<h4>Tech Details</h4>
-											<ul>
-												{techStack.map(tech => (
-													<li key={tech}>{tech}</li>
-												))}
-											</ul>
-										</div>
-									</>
-								)
-							)}
+							onClick={toggle}
 						>More Details &#x0226B;</span>
 						<ProjectModal
 							toggle={toggle}
-							modalConfig={modalConfig}
+							techStack={techStack}
+							description={description}
+							modalOpen={modalOpen}
+							projectTitle={projectTitle}
 						/>
 					</div>
 				</div>
