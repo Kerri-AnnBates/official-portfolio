@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container } from 'reactstrap';
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const Navbar = () => {
 	return (
@@ -11,10 +12,43 @@ const Navbar = () => {
 					</div>
 					<nav>
 						<ul>
-							<li><a href="#intro" className="active">Home</a></li>
-							<li><a href="#about">About</a></li>
-							<li><a href="#projects">Projects</a></li>
-							<li><a href="#contact">Contact</a></li>
+							<li>
+								<Link
+									to="intro"
+									smooth={true}
+									offset={-80}
+									className="active"
+								>
+									Home
+								</Link>
+							</li>
+							<li>
+								<Link
+									to="about"
+									smooth={true}
+									offset={-80}
+								>
+									About
+								</Link>
+							</li>
+							<li>
+								<Link
+									to="projects"
+									smooth={true}
+									offset={-80}
+								>
+									Projects
+								</Link>
+							</li>
+							<li>
+								<Link
+									to="contact"
+									smooth={true}
+									offset={-80}
+								>
+									Contact
+								</Link>
+							</li>
 						</ul>
 					</nav>
 				</div>
