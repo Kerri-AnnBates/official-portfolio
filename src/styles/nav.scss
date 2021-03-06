@@ -31,18 +31,18 @@
 
 nav {
 	a {
-		color  : #fff;
+		color  : #fff !important;
 		padding: 1rem 1rem 0.5rem;
 
 		&:hover {
 			color        : #fff;
 			border-bottom: 2px solid #fff;
+			cursor: pointer;
 		}
+	}
 
-		// &.active {
-		// 	color        : #fff;
-		// 	border-bottom: 2px solid #fff;
-		// }
+	.active {
+		border-bottom: 2px solid #fff;
 	}
 
 	ul {
