@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container } from 'reactstrap';
+import { Link } from "react-scroll";
 
 const Jumbotron = () => {
 	return (
@@ -10,8 +11,26 @@ const Jumbotron = () => {
 						<h1>Hello, I'm <span className="pop">Kerri-Ann Bates</span></h1>
 						<h2>Full-Stack Developer</h2>
 						<p>React | Redux | Express | Node</p>
-						<a href="#projects" className="full-btn">View Projects</a>
-						<a href="#contact" className="clear-btn">Contact Me</a>
+						<Link
+							activeClass="active"
+							to="projects"
+							smooth={true}
+							offset={-80}
+							spy={true}
+							className="full-btn"
+						>
+							View Projects
+						</Link>
+						<Link
+							activeClass="active"
+							to="contact"
+							smooth={true}
+							offset={-80}
+							spy={true}
+							className="clear-btn"
+						>
+							Contact Me
+						</Link>
 					</div>
 				</div>
 			</Container>
