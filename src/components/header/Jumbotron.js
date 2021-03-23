@@ -9,7 +9,7 @@ const Jumbotron = () => {
 				<div className="intro-wrapper">
 					<div className="intro-content">
 						<h1>Hello, I'm <span className="pop">Kerri-Ann Bates</span></h1>
-						<h2>Full-Stack Developer</h2>
+						<h2>Frontend Developer</h2>
 						<p>React | Redux | Express | Node</p>
 						<Link
 							activeClass="active"
