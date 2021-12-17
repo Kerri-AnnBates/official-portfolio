@@ -1,4 +1,4 @@
-import randomQuote from '../images/random-quote-machine.png';
+import countdownApp from '../images/countdownApp.png';
 import alpacaVids from '../images/alpacavids.png';
 import recipegif from '../images/recipe.gif';
 import weatherApp from '../images/weatherApp.png';
@@ -20,19 +20,19 @@ const projects = [
         imageSource: rockPaperScissors
     },
     {
-        title: "Random Quote Machine",
-        subTitle: "Simple website that displays randomly generated quotes to the user.",
-        description: "This simple application took approximately less than a day to complete. It demonstrates the use of react class components, connection to a thrid party API, and Sass.",
+        title: "Launch Countdown Landing Page",
+        subTitle: "Landing page displaying countdown of a launch.",
+        description: "This landing page is built with css matching the mock-up design. Vanilla JavaScript is used to initiate the countdown of the launch.",
         techStack: [
-            "React class components",
-            "Axios HTTP client",
-            "Preprocessor scripting language - Sass"
+            "Vanilla JavaScript",
+            "Semantic HTML",
+            "CSS"
         ],
-        url: "https://randomquotemachinekb.netlify.com/",
+        url: "https://countdown-launch.netlify.app/",
         github: [
-            "https://github.com/Kerri-AnnBates/Random-Quote-Machine"
+            "https://github.com/Kerri-AnnBates/launch-countdown-timer-main"
         ],
-        imageSource: randomQuote
+        imageSource: countdownApp
     },
 
     {
