@@ -1,7 +1,6 @@
 import countdownApp from '../images/countdownApp.png';
 import alpacaVids from '../images/alpacavids.png';
 import recipegif from '../images/recipe.gif';
-import weatherApp from '../images/weatherApp.png';
 import rockPaperScissors from '../images/rock-paper-scissors.png';
 import ipTracker from '../images/ip-tracker.png';
 
@@ -51,23 +50,6 @@ const projects = [
         imageSource: ipTracker
     },
     {
-        title: "Weather App",
-        subTitle: "Web application that display the weather in your local area and other cities throughtout the US via search.",
-        description: "Web application that display the weather in your local area. It also gives the user the ability to search and retrieve weather data from other cities throughout the USA, as well as save their favorite city. This app demonstrates the use of react functional components, react hooks, connection to a thrid party API, saving data, Sass and the BEM styling methodology. Future features in the making.",
-        techStack: [
-            "React functional components",
-            "React hooks",
-            "Axios HTTP client",
-            "Preprocessor scripting language - Sass",
-            "Mobile-first style approach"
-        ],
-        url: "https://theweatherapp-kb.herokuapp.com/",
-        github: [
-            "https://github.com/Kerri-AnnBates/weather-app"
-        ],
-        imageSource: weatherApp
-    },
-    {
         title: "Alpaca Vids",
         subTitle: "Web application that allows users to get constructive feedback on interview performance in a team envirnment.",
         description: "A video journal web application that allow users to practice answering prompt questions by recording themselves answering those questions and receiving feedback from their team members on one platform. Worked with a remote team of 4 full-stack developers and 1 UX designer over 2 months. (This project has been updated since I have worked on it by other contributors).",
@@ -79,7 +61,7 @@ const projects = [
             "Created actions in redux, dispatching data from endpoints to display on the frontend",
             "Implemented CRUD operations"
         ],
-        url: "https://www.alpacavids.com/",
+        url: "",
         github: [
             "https://github.com/Lambda-School-Labs/video-journal-for-teams-fe",
             "ttps://github.com/Lambda-School-Labs/video-journal-for-teams-be"

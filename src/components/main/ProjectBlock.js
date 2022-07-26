@@ -31,7 +31,8 @@ const ProjectBlock = (props) => {
 					</div>
 				</div>
 				<div className="links">
-					<a href={url} target="_blank" rel="noopener noreferrer" ><i className="fas fa-external-link-alt" title={`${projectTitle} live demo`} ></i></a> {github.map(link => (<a href={link} target="_blank" rel="noopener noreferrer" key={link} ><i className="fab fa-github-square"></i></a>))}
+					{url && (<a href={url} target="_blank" rel="noopener noreferrer" ><i className="fas fa-external-link-alt" title={`${projectTitle} live demo`} ></i></a>)}
+					{github.map(link => (<a href={link} target="_blank" rel="noopener noreferrer" key={link} ><i className="fab fa-github-square"></i></a>))}
 				</div>
 			</div>
 		</>
