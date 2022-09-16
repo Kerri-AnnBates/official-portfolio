@@ -3,20 +3,25 @@ import alpacaVids from '../images/alpacavids.png';
 import recipegif from '../images/recipe.gif';
 import rockPaperScissors from '../images/rock-paper-scissors.png';
 import ipTracker from '../images/ip-tracker.png';
+import interactiveComment from '../images/interactive-comment.png';
 
 const projects = [
     {
-        title: "Rock, Paper, Scissors",
-        subTitle: "A rock, paper, scissors game played against the computer. First to five win. Check it out!",
-        description: "This game is built with HTML, CSS, and vanilla Javascript. It was very exciting seeing everything come together.",
+        title: "Interactive Comments Page",
+        subTitle: "An interactive comments section for users to add, reply to, edit, and delete comments.",
+        description: "This page was built with a mobile-first approach in mind using the React JS framework and Sass on the frontend. On the backend, data is stored in a Postgres database. Spring Boot framework is used to interact with the database.",
         techStack: [
-            "HTML", "LESS", "Javascript (ES6)"
+            "Functional full-stack application",
+            "React JS",
+            "Sass - mobile first approach to build a responsive application",
+            "Spring Boot - using the MVC pattern",
+            "CRUD API capabilities"
         ],
-        url: "https://kbs-rock-paper-scissors.netlify.app/",
+        url: "https://kbs-interactive-comments.netlify.app/",
         github: [
-            "https://github.com/Kerri-AnnBates/rock-paper-scissors"
+            "https://github.com/Kerri-AnnBates/interactive-comments"
         ],
-        imageSource: rockPaperScissors
+        imageSource: interactiveComment
     },
     {
         title: "Launch Countdown Landing Page",
@@ -33,7 +38,6 @@ const projects = [
         ],
         imageSource: countdownApp
     },
-
     {
         title: "IP Address Tracker",
         subTitle: "Display map and IP information based on the user's IP address. Allows for searching IP iniformation based on the IP address entered in search form, or by domain name.",
@@ -48,6 +52,19 @@ const projects = [
             "https://github.com/Kerri-AnnBates/ip-address-tracker"
         ],
         imageSource: ipTracker
+    },
+    {
+        title: "Rock, Paper, Scissors",
+        subTitle: "A rock, paper, scissors game played against the computer. First to five win. Check it out!",
+        description: "This game is built with HTML, CSS, and vanilla Javascript. It was very exciting seeing everything come together.",
+        techStack: [
+            "HTML", "LESS", "Javascript (ES6)"
+        ],
+        url: "https://kbs-rock-paper-scissors.netlify.app/",
+        github: [
+            "https://github.com/Kerri-AnnBates/rock-paper-scissors"
+        ],
+        imageSource: rockPaperScissors
     },
     {
         title: "Alpaca Vids",
@@ -86,7 +103,7 @@ const projects = [
             "https://github.com/recipe-app-kb/recipe-be"
         ],
         imageSource: recipegif
-    }
+    },
 ]
 
 export default projects;
