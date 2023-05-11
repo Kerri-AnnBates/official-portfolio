@@ -4,6 +4,7 @@ import recipegif from '../images/recipe.gif';
 import rockPaperScissors from '../images/rock-paper-scissors.png';
 import ipTracker from '../images/ip-tracker.png';
 import interactiveComment from '../images/interactive-comment.png';
+import calculatorApp from '../images/calculatorApp.png';
 
 const projects = [
     {
@@ -54,17 +55,17 @@ const projects = [
         imageSource: ipTracker
     },
     {
-        title: "Rock, Paper, Scissors",
-        subTitle: "A rock, paper, scissors game played against the computer. First to five win. Check it out!",
-        description: "This game is built with HTML, CSS, and vanilla Javascript. It was very exciting seeing everything come together.",
+        title: "Basic Calculator App",
+        subTitle: "Basic calculator to satisfy your basic math needs!",
+        description: "The main objective I had for building this application was to practice organizing my code by implementing the object oriented programing paradigm. This application is also responsive, using css grids to keep everything structure and easily accessible.",
         techStack: [
-            "HTML", "LESS", "Javascript (ES6)"
+            "Javascript", "HTML", "SASS preprocessor"
         ],
-        url: "https://kbs-rock-paper-scissors.netlify.app/",
+        url: "https://basiccalculatorkb.netlify.app/",
         github: [
-            "https://github.com/Kerri-AnnBates/rock-paper-scissors"
+            "https://github.com/Kerri-AnnBates/Calculator"
         ],
-        imageSource: rockPaperScissors
+        imageSource: calculatorApp
     },
     {
         title: "Alpaca Vids",
