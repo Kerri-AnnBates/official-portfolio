@@ -1,7 +1,6 @@
 import countdownApp from '../images/countdownApp.png';
 import alpacaVids from '../images/alpacavids.png';
 import recipegif from '../images/recipe.gif';
-import rockPaperScissors from '../images/rock-paper-scissors.png';
 import ipTracker from '../images/ip-tracker.png';
 import interactiveComment from '../images/interactive-comment.png';
 import calculatorApp from '../images/calculatorApp.png';
@@ -57,7 +56,7 @@ const projects = [
     {
         title: "Basic Calculator App",
         subTitle: "Basic calculator to satisfy your basic math needs!",
-        description: "The main objective I had for building this application was to practice organizing my code by implementing the object oriented programing paradigm. This application is also responsive, using css grids to keep everything structure and easily accessible.",
+        description: "The main objective I had for building this application was to practice organizing my code by implementing the object oriented programing paradigm. This application is also responsive, using css grids to keep everything structured and accessible.",
         techStack: [
             "Javascript", "HTML", "SASS preprocessor"
         ],
