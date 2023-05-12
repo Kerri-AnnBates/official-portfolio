@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import ProjectModal from './ProjectModal';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { icon } from '@fortawesome/fontawesome-svg-core/import.macro';
 
 const ProjectBlock = (props) => {
 	const { projectTitle, subtitle, description, techStack, url, github, imageSource } = props;
@@ -31,8 +33,8 @@ const ProjectBlock = (props) => {
 					</div>
 				</div>
 				<div className="links">
-					{url && (<a href={url} target="_blank" rel="noopener noreferrer" ><i className="fas fa-external-link-alt" title={`${projectTitle} live demo`} ></i></a>)}
-					{github.map(link => (<a href={link} target="_blank" rel="noopener noreferrer" key={link} ><i className="fab fa-github-square"></i></a>))}
+					{url && (<a href={url} target="_blank" rel="noopener noreferrer" title="Live Site"><FontAwesomeIcon icon={icon({ name: 'arrow-up-right-from-square' })} size="lg" className="icons" /></a>)}
+					{github.map(link => (<a href={link} target="_blank" rel="noopener noreferrer" key={link} title="Github Repo"><FontAwesomeIcon icon={icon({ name: 'github', style: 'brands' })} size="lg" className="icons" /></a>))}
 				</div>
 			</div>
 		</>

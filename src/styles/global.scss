@@ -5,7 +5,7 @@
 
 html,
 body {
-	margin : 0;
+	margin: 0;
 	padding: 0;
 }
 
@@ -15,7 +15,7 @@ html {
 
 body {
 	font-family: $bodyFont;
-	font-size  : 1.6rem;
+	font-size: 1.6rem;
 	padding-top: 80px;
 }
 
@@ -47,7 +47,7 @@ li {
 
 ul {
 	padding: 0;
-	margin : 0;
+	margin: 0;
 }
 
 h1 {
@@ -69,29 +69,29 @@ img {
 .about-section,
 .projects-list,
 .contact-details {
-	padding : 4rem;
+	padding: 4rem;
 	position: relative;
 
 	@media (max-width: 768px) {
-		padding-left : 2rem;
+		padding-left: 2rem;
 		padding-right: 2rem;
 	}
 }
 
 .sub-titles {
 	margin-bottom: 4rem;
-	text-align   : center;
+	text-align: center;
 
 	h2 {
 		font-size: 3.6rem;
-		display  : inline-block;
+		display: inline-block;
 
 		&::after {
-			content         : '';
-			display         : block;
-			width           : 4rem;
+			content: '';
+			display: block;
+			width: 4rem;
 			background-color: $secondaryColor;
-			height          : 4px;
+			height: 4px;
 		}
 	}
 }
@@ -102,4 +102,8 @@ img {
 
 .full-btn {
 	@include fullButtonlink($secondaryColor);
+}
+
+.icons {
+	color: #fff;
 }

@@ -1,6 +1,8 @@
 import React from 'react'
 import { Container } from 'reactstrap';
 import { Link } from "react-scroll";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { icon } from '@fortawesome/fontawesome-svg-core/import.macro';
 
 const Navbar = () => {
 	return (
@@ -8,7 +10,7 @@ const Navbar = () => {
 			<Container fluid={true}>
 				<div className="nav-wrapper">
 					<div className="logo">
-						<div><i className="fas fa-laptop-code"></i></div>
+						<div><FontAwesomeIcon icon={icon({ name: "laptop-code" })} size="lg" className="icons" /></div>
 					</div>
 					<nav>
 						<ul>
